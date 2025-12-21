@@ -1,39 +1,52 @@
-# Professional Portfolio Website
+# 🚀 Personal Portfolio Website
 
-A clean, modern, and responsive portfolio website built with React, Vite, and Tailwind CSS. Designed to be recruiter-friendly and showcase skills effectively.
+A high-performance, recruiter-ready portfolio focused on modern aesthetics, smooth interactions, and real-world usability.  
+Built to showcase skills, projects, and experience with a clean UI and optimized performance.
 
-## Tech Stack
+🌐 **Live Demo**:  
+👉 https://karthik-portfolio-blond.vercel.app/
 
-- **Frontend:** React + Vite
-- **Styling:** Tailwind CSS
-- **Icons:** Lucide React
-- **Animations:** Framer Motion
+---
 
-## Getting Started
+## ✨ Features
 
-1. **Install Dependencies**
-   ```bash
-   npm install
-   ```
+- **Dynamic Theme Engine**  
+  Custom Context-based theme system with 4 real-time switchable color presets:
+  - Cosmic
+  - Emerald
+  - Sunset
+  - Neon
 
-2. **Run Development Server**
-   ```bash
-   npm run dev
-   ```
+- **Interactive UI & Animations**  
+  - Custom cursor spotlight effect  
+  - Particle-based animated backgrounds  
+  - Scroll-reveal animations powered by Framer Motion  
 
-3. **Build for Production**
-   ```bash
-   npm run build
-   ```
+- **Production-Optimized Performance**  
+  - Modern ESM asset handling  
+  - Fast load times and smooth transitions  
+  - Optimized for deployment on Vercel  
 
-## Project Structure
+- **Interactive Experience Section**  
+  - Image modals for certifications and academic milestones  
 
-- `src/components`: Reusable UI components (Hero, Projects, Skills, etc.)
-- `src/App.jsx`: Main application layout assembling sections.
-- `tailwind.config.js`: Tailwind CSS configuration.
+- **Seamless Contact Form**  
+  - Fully functional contact form using **Web3Forms API**  
+  - No backend required  
 
-## Customization
+---
 
-- Update `src/components/Projects.jsx` with your real projects.
-- Update `src/components/Skills.jsx` with your specific skills.
-- Update `src/components/Contact.jsx` with your contact details.
+## 🛠️ Tech Stack
+
+| Category       | Technologies |
+|---------------|-------------|
+| Framework     | React 19 + Vite |
+| Styling       | Tailwind CSS (Custom Design System) |
+| Animations    | Framer Motion |
+| Icons         | Lucide React |
+| Form Handling | Web3Forms API |
+
+---
+
+## 📁 Project Structure
+
