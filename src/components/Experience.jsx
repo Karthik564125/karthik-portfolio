@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import ImageModal from './ImageModal';
 import logoKL from '../assets/logo-kl.png';
 import logoChaitanya from '../assets/logo-chaitanya.png';
+import certWebFullstack from '../assets/cert-web-fullstack.png';
+import certIbmSkills from '../assets/cert-ibm-skills.png';
 
 const Experience = () => {
     const [selectedImage, setSelectedImage] = useState(null);
@@ -72,9 +74,9 @@ const Experience = () => {
                                         <p className="text-slate-500 text-xs mb-3">July - Sep 2024</p>
                                         <div
                                             className="mt-auto rounded-lg overflow-hidden border border-white/10 group-hover:border-neon-cyan/30 transition-all cursor-pointer"
-                                            onClick={() => setSelectedImage({ src: "/src/assets/cert-web-fullstack.png", alt: "EduSkills Certificate" })}
+                                            onClick={() => setSelectedImage({ src: certWebFullstack, alt: "EduSkills Certificate" })}
                                         >
-                                            <img src="/src/assets/cert-web-fullstack.png" alt="EduSkills Certificate" className="w-full h-32 object-cover hover:scale-110 transition-transform duration-500" />
+                                            <img src={certWebFullstack} alt="EduSkills Certificate" className="w-full h-32 object-cover hover:scale-110 transition-transform duration-500" />
                                         </div>
                                     </div>
                                 </div>
@@ -88,9 +90,9 @@ const Experience = () => {
                                         <p className="text-slate-500 text-xs mb-3">May - Jun 2024</p>
                                         <div
                                             className="mt-auto rounded-lg overflow-hidden border border-white/10 group-hover:border-neon-cyan/30 transition-all cursor-pointer"
-                                            onClick={() => setSelectedImage({ src: "/src/assets/cert-ibm-skills.png", alt: "IBM SkillsBuild Certificate" })}
+                                            onClick={() => setSelectedImage({ src: certIbmSkills, alt: "IBM SkillsBuild Certificate" })}
                                         >
-                                            <img src="/src/assets/cert-ibm-skills.png" alt="IBM SkillsBuild Certificate" className="w-full h-32 object-cover hover:scale-110 transition-transform duration-500" />
+                                            <img src={certIbmSkills} alt="IBM SkillsBuild Certificate" className="w-full h-32 object-cover hover:scale-110 transition-transform duration-500" />
                                         </div>
                                     </div>
                                 </div>
