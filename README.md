@@ -23,7 +23,6 @@ Built to showcase skills, projects, and experience with a clean UI and optimized
   - Scroll-reveal animations powered by Framer Motion  
 
 - **Production-Optimized Performance**  
-  - Modern ESM asset handling  
   - Fast load times and smooth transitions  
   - Optimized for deployment on Vercel  
 
@@ -45,8 +44,3 @@ Built to showcase skills, projects, and experience with a clean UI and optimized
 | Animations    | Framer Motion |
 | Icons         | Lucide React |
 | Form Handling | Web3Forms API |
-
----
-
-## 📁 Project Structure
-
