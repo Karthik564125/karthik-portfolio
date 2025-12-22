@@ -18,7 +18,7 @@ const Resume = () => {
             <div className="container mx-auto px-4 pt-24 pb-12 h-screen flex flex-col">
                 <div className="flex-1 w-full h-full bg-surface/30 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden shadow-2xl">
                     <iframe
-                        src="/src/assets/resume.pdf"
+                        src="/resume.pdf"
                         className="w-full h-full"
                         title="Resume"
                     />

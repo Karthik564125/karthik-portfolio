@@ -61,7 +61,7 @@ const Hero = () => {
                         <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                     </Link>
                     <a
-                        href="/src/assets/resume.pdf"
+                        href="/resume.pdf"
                         download="Karthik_Pisupati_Resume.pdf"
                         className="group inline-flex items-center justify-center px-8 py-4 bg-neon-purple/10 text-neon-purple rounded-full font-medium hover:bg-neon-purple hover:text-white transition-all hover:scale-105 border border-neon-purple/20 hover:border-neon-purple hover:shadow-[0_0_20px_rgba(124,58,237,0.3)] backdrop-blur-sm"
                     >
