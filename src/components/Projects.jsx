@@ -2,7 +2,7 @@ import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import projectFarmbasket from '../assets/project_farmbasket.png';
 import projectNutritrack from '../assets/project_nutritrack.png';
-import projectWeather from '../assets/project_weather.png';
+import projectFinanceAI from '../assets/project_financeai.png';
 
 const Projects = () => {
     const projects = [
@@ -17,17 +17,17 @@ const Projects = () => {
         {
             title: "FarmBasket",
             description: "Bridging Farmers and Consumers. A full stack web application facilitating direct connections between farmers and buyers, ensuring fair pricing and fresh produce.",
-            tags: ["Full Stack", "Web App", "Agriculture"],
+            tags: ["React", "E-Commerce", "Agriculture"],
             image: projectFarmbasket,
             github: "https://github.com/Karthik564125/FarmBasket",
             demo: "#"
         },
         {
-            title: "Weather App",
-            description: "A sleek, modern, and responsive weather application built using React. Allows users to search for any city and instantly view real-time weather conditions, 5-day forecast, and toggle between light/dark modes. Features smooth animations and blurred weather cards.",
-            tags: ["React", "Weather API", "UI/UX"],
-            image: projectWeather,
-            github: "https://github.com/Karthik564125/weatherapp",
+            title: "FinanceAI",
+            description: "FinanceAI is a smart web app that helps users track expenses, manage budgets, and monitor payments. It uses AI to give personalized insights for better financial decisions. The app is secure, simple to use, and designed to keep users in control of their money.",
+            tags: ["React+Typescript", "Finance", "AI"],
+            image: projectFinanceAI,
+            github: "https://github.com/Karthik564125/fianceai",
             demo: "#"
         }
     ];

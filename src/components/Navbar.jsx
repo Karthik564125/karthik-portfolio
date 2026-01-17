@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Mail, Palette, Home, ExternalLink } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '../context/ThemeContext';
-import profilePic from '../assets/profile.jpg';
+
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -43,8 +43,8 @@ const Navbar = () => {
                             className="flex-shrink-0 flex items-center gap-2 group"
                             whileHover={{ scale: 1.05 }}
                         >
-                            <div className="relative w-10 h-10 flex items-center justify-center bg-surface/80 rounded-full border border-white/10 group-hover:border-neon-cyan/50 transition-colors shadow-lg shadow-neon-blue/10 overflow-hidden">
-                                <img src={profilePic} alt="Karthik Profile" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
+                            <div className="relative w-10 h-10 flex items-center justify-center bg-surface/80 rounded-full border border-white/10 group-hover:border-neon-cyan/50 transition-colors shadow-lg shadow-neon-blue/10">
+                                <Home size={20} className="text-slate-300 group-hover:text-neon-cyan transition-colors" />
                             </div>
                         </motion.a>
                     </div>
