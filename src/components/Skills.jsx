@@ -42,6 +42,13 @@ const Skills = () => {
                 { name: "Familiar with AWS Services", icon: <Cloud size={18} /> }
             ]
         },
+        {
+            category: "DevOps & CI/CD",
+            items: [
+                { name: "CI/CD", icon: <Server size={18} /> },
+                { name: "Docker", icon: <Box size={18} /> }
+            ]
+        },
     ];
 
     const certifications = [
