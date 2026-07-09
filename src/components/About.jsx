@@ -29,7 +29,7 @@ const About = () => {
                         {/* Text Column */}
                         <div className="w-full md:w-2/3 glass-card p-8 rounded-2xl shadow-xl">
                             <p className="text-slate-300 text-lg leading-relaxed mb-6 font-light">
-                                I am <strong className="text-slate-100 font-medium">Pisupati A V Sai Karthikeya Bharadwaja</strong>, an enthusiastic and motivated undergraduate at <strong className="text-slate-100 font-medium">KL University</strong>, pursuing Computer Science and Engineering.
+                                I am <strong className="text-slate-100 font-medium">Pisupati A V Sai Karthikeya Bharadwaja</strong>, an enthusiastic and motivated undergraduate at <strong className="text-slate-100 font-medium">KL University</strong>, completed Computer Science and Engineering.
                             </p>
                             <p className="text-slate-300 text-lg leading-relaxed mb-6 font-light">
                                 I have strong leadership qualities, excellent communication skills, and a sharp ability to quickly grasp and adapt to new technologies. I am open to work and eager to contribute effectively in dynamic team environments.

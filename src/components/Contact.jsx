@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Linkedin, Github, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
+import { Mail, Linkedin, Github, Instagram, Send, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
 
 const Contact = () => {
     const [status, setStatus] = useState("idle"); // idle, loading, success, error
@@ -53,7 +53,7 @@ const Contact = () => {
 
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a
-                                href="mailto:2200030209cseh@gmail.com"
+                                href="mailto:pisupatikarthikeyabharadwaja@gmail.com"
                                 className="inline-flex items-center justify-center px-8 py-4 bg-neon-blue text-white rounded-full font-medium hover:bg-neon-purple transition-all shadow-[0_0_20px_rgba(79,70,229,0.3)] hover:shadow-[0_0_30px_rgba(124,58,237,0.5)] hover:scale-105"
                             >
                                 <Mail className="mr-3 w-5 h-5" />
@@ -75,12 +75,24 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="flex gap-6 pt-6">
+                        <div className="flex gap-6 pt-6 items-center">
                             <a href="https://github.com/Karthik564125" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 rounded-full border border-white/10 hover:border-neon-cyan/50 hover:bg-white/10 text-slate-400 hover:text-neon-cyan transition-all hover:scale-110">
                                 <Github size={24} />
                             </a>
                             <a href="https://www.linkedin.com/in/karthikeya-bharadwaja-pisupati-804620247/" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 rounded-full border border-white/10 hover:border-neon-purple/50 hover:bg-white/10 text-slate-400 hover:text-neon-purple transition-all hover:scale-110">
                                 <Linkedin size={24} />
+                            </a>
+                            <a href="https://www.instagram.com/karthik_125_/" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 rounded-full border border-white/10 hover:border-pink-400/50 hover:bg-white/10 text-slate-400 hover:text-pink-400 transition-all hover:scale-110" aria-label="Instagram">
+                                <Instagram size={24} />
+                            </a>
+                            <a href="https://t.me/Karthikeya_2005" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 rounded-full border border-white/10 hover:border-neon-cyan/50 hover:bg-white/10 text-slate-400 hover:text-neon-cyan transition-all hover:scale-110" aria-label="Telegram">
+                                <Send size={24} />
+                            </a>
+                            <a href="https://wa.me/917075686837?text=Hi%20Karthik%2C%20I%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 rounded-full border border-white/10 hover:border-green-400/50 hover:bg-white/10 text-slate-400 hover:text-green-400 transition-all hover:scale-110" aria-label="WhatsApp">
+                                <svg role="img" viewBox="0 0 24 24" className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                    <title>WhatsApp</title>
+                                    <path d="M20.52 3.48A11.78 11.78 0 0 0 12 .23C6 .23 1.12 4.94 1.12 10.3c0 1.78.47 3.5 1.37 5.03L.2 22l7.02-2.29A11.72 11.72 0 0 0 12 21.5c6 0 10.88-4.73 10.88-10.2 0-2.73-1.06-5.28-2.36-7.82zM12 19.34c-1.6 0-3.17-.44-4.54-1.27l-.32-.2-4.26 1.39 1.12-3.9-.21-.38C2.02 12.9 2 11.63 2 10.3 2 6.11 6.5 2.62 12 2.62c2.95 0 5.7 1.17 7.77 3.27C21.84 8.97 23 11.58 23 14.38 23 18.56 18.5 22.84 12 22.84zM17.27 14.7c-.28-.14-1.66-.82-1.92-.91-.26-.09-.45-.14-.64.14s-.74.91-.9 1.1c-.16.2-.32.23-.6.08-.28-.15-1.18-.43-2.25-1.39-.83-.74-1.39-1.66-1.56-1.94-.17-.29-.02-.44.13-.58.13-.13.28-.33.42-.5.14-.17.18-.29.28-.48.09-.19.04-.35-.02-.49-.06-.14-.64-1.55-.88-2.12-.23-.55-.47-.48-.64-.49l-.54-.01c-.18 0-.47.07-.72.35-.25.28-.96.94-.96 2.3 0 1.36.98 2.67 1.12 2.85.14.18 1.93 3.02 4.68 4.24 2.75 1.22 2.75.82 3.24.77.49-.05 1.59-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.26-.17-.54-.31z" />
+                                </svg>
                             </a>
                         </div>
                     </div>
