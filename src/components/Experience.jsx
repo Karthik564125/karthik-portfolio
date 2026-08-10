@@ -4,6 +4,9 @@ import logoKL from '../assets/logo-kl.png';
 import logoChaitanya from '../assets/logo-chaitanya.png';
 import certWebFullstack from '../assets/cert-web-fullstack.png';
 import certIbmSkills from '../assets/cert-ibm-skills.png';
+import h1Img from '../assets/h1.jpg';
+import h2Img from '../assets/h2.jpg';
+import me1Img from '../assets/me1.jpg';
 
 const Experience = () => {
     const [selectedImage, setSelectedImage] = useState(null);
@@ -155,6 +158,59 @@ const Experience = () => {
                                             <li className="flex items-center"><span className="text-neon-blue mr-2">▹</span> Tech Workshops</li>
                                             <li className="flex items-center"><span className="text-neon-blue mr-2">▹</span> Social Impact</li>
                                         </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        {/* Lubeswala Hackathon */}
+                        <div className="relative group">
+                            <div className="glass-card p-8 rounded-2xl border border-white/10 hover:border-neon-blue/50 transition-all shadow-lg hover:shadow-neon-blue/10">
+                                <div className="flex flex-col md:flex-row gap-6 items-start">
+                                    <div className="flex-1">
+                                        <div className="flex justify-between items-start mb-2">
+                                            <h4 className="text-2xl font-bold text-slate-100">Lubeswala Hackathon</h4>
+                                            <span className="px-3 py-1 bg-neon-cyan/10 text-neon-cyan text-xs font-semibold rounded-full border border-neon-cyan/20">Hackathon</span>
+                                        </div>
+                                        <div className="flex items-center gap-2 mb-4">
+                                            <span className="text-neon-cyan font-medium">GigPoint (Super Apps)</span>
+                                            <span className="text-slate-600">•</span>
+                                            <span className="text-slate-500 text-sm">Hyderabad</span>
+                                        </div>
+                                        <p className="text-slate-300 mb-3 leading-relaxed">
+                                            Participated in a hackathon by GigPoint (part of Super Apps) in Hyderabad, solving a real-world problem statement from Petro Bazar for their platform Lubeswala, which sells engine oils, lubricants, greases, and other automotive essentials. The challenge: garage owners and mechanics are used to mobile-first apps like Swiggy and Blinkit, so the goal was to design a simple, customer-friendly Android commerce experience instead of relying only on the existing website.
+                                        </p>
+                                        <p className="text-slate-300 mb-4 leading-relaxed">
+                                            Since most of my prior experience was in web development, I used this as an opportunity to learn React Native with Expo and build my first mobile app — focused on making product discovery and ordering simple for garage owners and mechanics. Presented and demoed the working app in Hyderabad on the final day.
+                                        </p>
+
+                                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-slate-400 text-sm mb-4">
+                                            <li className="flex items-center"><span className="text-neon-blue mr-2">▹</span> React Native</li>
+                                            <li className="flex items-center"><span className="text-neon-blue mr-2">▹</span> Mobile Development</li>
+                                            <li className="flex items-center"><span className="text-neon-blue mr-2">▹</span> Hackathon</li>
+                                            <li className="flex items-center"><span className="text-neon-blue mr-2">▹</span> Product Design</li>
+                                        </ul>
+
+                                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-2">
+                                            <div
+                                                className="overflow-hidden rounded-md border border-white/10"
+                                                onClick={() => setSelectedImage({ src: h1Img, alt: 'Lubeswala - Photo 1' })}
+                                            >
+                                                <img src={h1Img} alt="Lubeswala 1" className="w-full h-28 md:h-32 object-cover hover:scale-105 transition-transform duration-500 cursor-pointer" />
+                                            </div>
+                                            <div
+                                                className="overflow-hidden rounded-md border border-white/10"
+                                                onClick={() => setSelectedImage({ src: h2Img, alt: 'Lubeswala - Photo 2' })}
+                                            >
+                                                <img src={h2Img} alt="Lubeswala 2" className="w-full h-28 md:h-32 object-cover hover:scale-105 transition-transform duration-500 cursor-pointer" />
+                                            </div>
+                                            <div
+                                                className="overflow-hidden rounded-md border border-white/10"
+                                                onClick={() => setSelectedImage({ src: me1Img, alt: 'Me - Lubeswala' })}
+                                            >
+                                                <img src={me1Img} alt="Me at Lubeswala" className="w-full h-28 md:h-32 object-cover hover:scale-105 transition-transform duration-500 cursor-pointer" />
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

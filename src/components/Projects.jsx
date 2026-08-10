@@ -4,6 +4,7 @@ import projectFarmbasket from '../assets/project_farmbasket.png';
 import projectNutritrack from '../assets/project_nutritrack.png';
 import projectFinanceAI from '../assets/project_financeai.png';
 import dietxPreview from '../assets/dietx_preview.png';
+import Lucky4UFeatured from './Lucky4UFeatured';
 
 const Projects = () => {
     const projects = [
@@ -34,14 +35,14 @@ const Projects = () => {
     return (
         <section id="projects" className="py-20 relative">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl font-bold text-slate-100 mb-4 font-display">Featured Projects</h2>
-                </div>
+                <div className="mb-16 flex justify-center">
+                        <h2 className="text-3xl font-bold text-slate-100 mb-4 font-display text-center">Featured Projects</h2>
+                    </div>
 
-                {/* Freelance Projects */}
-                <div className="mb-12">
-                    <h3 className="text-2xl font-bold text-slate-100 mb-6">Freelance Projects</h3>
-                    <div className="glass-card p-6 rounded-xl overflow-hidden hover:border-neon-cyan/50 transition-all">
+                    {/* Freelance Projects */}
+                    <div className="mb-12">
+                        <h3 className="text-2xl font-bold text-slate-100 mb-6">Freelance Projects</h3>
+                        <div className="glass-card p-6 rounded-xl overflow-hidden hover:border-neon-cyan/50 transition-all">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
                                 <div className="md:col-span-2">
                                 <h4 className="text-xl font-bold text-slate-100 mb-2">DietX – Diet Consultation</h4>
@@ -68,6 +69,11 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+
+                                {/* Lucky4U Group Websites - Featured */}
+                                <div className="mb-12">
+                                    <Lucky4UFeatured />
+                                </div>
 
                 <div className="mt-12">
                     <h3 className="text-2xl font-bold text-slate-100 mb-6">Personal Projects</h3>
