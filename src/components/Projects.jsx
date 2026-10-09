@@ -5,16 +5,33 @@ import projectNutritrack from '../assets/project_nutritrack.png';
 import projectFinanceAI from '../assets/project_financeai.png';
 import dietxPreview from '../assets/dietx_preview.png';
 import Lucky4UFeatured from './Lucky4UFeatured';
+import SarkariJob from "../assets/project_sarkarijob.png";
+import TriageAI from "../assets/project_to.png";
 
 const Projects = () => {
     const projects = [
         {
             title: "Spendwise",
             description: "A finance web app to track expenses and manage budgets with insightful visualizations.",
-            tags: ["React", "Finance", "Expenses"],
+            tags: ["React Vite", "Finance", "Expenses"],
             image: projectFinanceAI,
             github: "https://github.com/Karthik564125/FinanceAI",
             demo: "https://ai-finance-b81e3.web.app/login"
+        },
+        {
+            title: "Sarkari Job",
+            description : "An AI-powered government job tracking platform that helps graduates discover recruitment notifications, check eligibility, and stay updated on opportunities from SSC, APPSC, and RRB. Built with a centralized recruitment database to simplify government job discovery and application planning.",
+            tags: ["React Vite", "Government Jobs", "Supabase"],
+            image: SarkariJob,
+            github: "https://github.com/Karthik564125/sarkarijob",
+            demo : "https://sarkarijob-psi.vercel.app/"
+        },
+         {
+            title: "TriageAI",
+            description: "AI-powered support ticket management system for ticket tracking, intelligent triage, priority classification, and team assignment with admin-controlled decisions.",
+            tags: ["React Vite", "Ticket Organizer"],
+            image: TriageAI,
+            github: "https://github.com/Karthik564125/triageai",
         },
         {
             title: "NutriTrack",
@@ -29,7 +46,7 @@ const Projects = () => {
             tags: ["React", "E-Commerce", "Agriculture"],
             image: projectFarmbasket,
             github: "https://github.com/Karthik564125/FarmBasket",
-        },
+        } 
     ];
 
     return (
@@ -46,7 +63,7 @@ const Projects = () => {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
                                 <div className="md:col-span-2">
                                 <h4 className="text-xl font-bold text-slate-100 mb-2">DietX – Diet Consultation</h4>
-                                <p className="text-neon-cyan font-medium mb-3">Jun 2025 – Present</p>
+                                <p className="text-neon-cyan font-medium mb-3">Jun 2026 – Present</p>
                                 <p className="text-slate-300 mb-4">Developed and deployed a production-ready nutrition platform using <strong className="text-white">React</strong>, <strong className="text-white">Node.js</strong>, <strong className="text-white">MongoDB</strong>, and <strong className="text-white">Razorpay</strong> for online consultations and payment management. Collaborated directly with a real-world client — gathered requirements, managed deployment, and delivered a fully functional business solution.</p>
                                 <div className="flex gap-4">
                                     <a href="https://www.dietx.org.in/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-4 py-2 bg-white/5 text-white rounded-lg border border-white/10 hover:bg-white/10 transition-colors">Live Demo</a>
